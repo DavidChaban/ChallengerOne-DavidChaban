@@ -29,6 +29,7 @@
     background-color: rgba(7, 48, 35, 0.786);
     z-index: 0;
     color: rgb(170, 146, 15);
+    border: 2px solid rgb(11, 14, 12);
 }
 .error{
     color: red;
@@ -56,7 +57,7 @@ button {
     font-size: 20px;
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+    border: 2px solid rgb(11, 14, 12);
 }
 button:hover{
     background-color: rgb(3, 204, 137);
@@ -79,6 +80,7 @@ input {
     width: 70%;
     height: 5vh;
     margin-left: 4.8rem;
+    border: 2px solid rgb(11, 14, 12);
 
 }
 
@@ -127,8 +129,105 @@ footer{
     justify-content: center;
     font-size: 25px
 }
+@media (max-width: 2560px) {
+    .img-fondo{
+        width: 100%;
+        height: 85rem;
+  
+        object-fit: cover;
+
+    }
+    .titulop{
+        color: orange;
+    }
+}
+@media (max-width: 1920px) {
+    .img-fondo{
+        height: 67.4rem;
+  
+        object-fit: cover;
+
+    }
+    .titulop{
+        color: orange;
+    }
+    button {
+        width: 35%;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1870px) {
+    .img-fondo{
+        height: 59.4rem;
+  
+        object-fit: cover;
+
+    }
+    .titulop{
+        color: orange;
+    }
+    button {
+        width: 35%;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 560px) {
+    .img-fondo{
+        height: 59.4rem;
+  
+        object-fit: cover;
+
+    }
+    .titulop{
+        color: orange;
+    }
+
+    input {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        width: 70%;
+        height: 5vh;
+        margin-left: 2.8rem;
+    }
+    button {
+        width: 38%;
+        font-size: 18px;
+    }
+
+}
 
 
 
+@media (max-width: 320px) {
+    
+    .img-fondo{
+        height: 59.5rem;
+  
+        object-fit: cover;
+
+    }
+    .titulop{
+        color: orange;
+    }
+
+    input {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        width: 70%;
+        height: 5vh;
+        margin-left: 2.8rem;
+    }
+    button {
+        width: 38%;
+        font-size: 18px;
+    }
+
+}
 
 
